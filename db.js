@@ -42,7 +42,7 @@ const db = new sqlite3.Database('./ws.db')
     
    /* Deletar um dado da tabela
    db.run(`DELETE FROM ideas WHERE id = ?`, [2], function(err){
-       if(err) return console.log(err)
+       if(err) return console.log(err) // fff
 
        console.log("DELETEI", this)
    }) */
